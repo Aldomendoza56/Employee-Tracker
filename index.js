@@ -4,7 +4,7 @@ This version is used for compatibility with commonJS modules
 */
 
 // Using 'figlet' for some ascii art, function draws ascii artwork application header
-showAsciiArt('EMPLOYEE MANAGEMENT SYSTEM');
+// showAsciiArt('EMPLOYEE MANAGEMENT SYSTEM');
 
 const mysql = require('mysql2');
 const inquirer = require('inquirer');
@@ -14,7 +14,7 @@ const fs = require('fs');
 const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: 'password',
+  password: 'August2914!',
   multipleStatements: true,
 });
 
@@ -209,7 +209,7 @@ function deleteMenu() {
 
 }
 
-// Functions: These are using the promisify to ensure that the function executions are paused until the query resuls are available. This also allows us to 'catch' errors.
+//Functions: These are using the promisify to ensure that the function executions are paused until the query resuls are available. This also allows us to 'catch' errors.
 
 //  function to view departments
 async function viewDepartments() {
